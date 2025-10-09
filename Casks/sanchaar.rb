@@ -1,6 +1,9 @@
 cask "sanchaar" do
-  version "0.3.0"
   auto_updates true
+  version "0.3.0"
+  name "Sanchaar"
+  desc "Fast offline REST API Client"
+  homepage "https://github.com/nrjais/sanchaar"
 
   on_arm do
     sha256 "be5f3a8ed3b123eeac5ae4bbe30dad9dd4d8512d875b10c4b7fcdad3dc95323a"
@@ -12,10 +15,6 @@ cask "sanchaar" do
 
     url "https://github.com/nrjais/sanchaar/releases/download/#{version}/Sanchaar-#{version}-x86_64-apple-darwin.dmg"
   end
-
-  name "Sanchaar"
-  desc "Fast offline REST API Client"
-  homepage "https://github.com/nrjais/sanchaar"
 
   livecheck do
     url :homepage
