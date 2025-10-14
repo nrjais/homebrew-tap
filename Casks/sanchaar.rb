@@ -1,15 +1,15 @@
 cask "sanchaar" do
-  version "0.3.0"
+  version "0.3.1"
 
   on_arm do
-    sha256 "be5f3a8ed3b123eeac5ae4bbe30dad9dd4d8512d875b10c4b7fcdad3dc95323a"
+    sha256 "3deaa8b2fe4478656ef60ee385c81e4eadd2215449fc96fdf11937a8347ae125"
 
-    url "https://github.com/nrjais/sanchaar/releases/download/#{version}/Sanchaar-#{version}-aarch64-apple-darwin.dmg"
+    url "https://github.com/nrjais/sanchaar/releases/download/#{version}/Sanchaar_macOS_aarch64.dmg"
   end
   on_intel do
-    sha256 "d8392fef7cc1f4d254e2ef77033931c30419f88345f59d8036230370ec0ca6e9"
+    sha256 "8a3898e98aea98919c2594f44df22d132c8f9299fbadcdd9d85f47856e826397"
 
-    url "https://github.com/nrjais/sanchaar/releases/download/#{version}/Sanchaar-#{version}-x86_64-apple-darwin.dmg"
+    url "https://github.com/nrjais/sanchaar/releases/download/#{version}/Sanchaar_macOS_x64.dmg"
   end
 
   name "Sanchaar"
